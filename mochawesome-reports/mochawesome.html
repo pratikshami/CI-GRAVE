@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">JS-CI-Repo2-master</h1>
+          <h3 class="report-date">Wednesday, April 8 2015, 11:18am</h3>
+        </div>
+        <div class="quick-summary-cnt">
+            <ul class="list-unstyled quick-summary">
+              <li class="qs-item summary-duration" title="Duration">266<span>MS</span></li>
+              <li class="qs-item summary-suites" title="Suites">4</li>
+              <li class="qs-item summary-tests" title="Tests">4</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">4</li>
+              <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+              <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+            </ul>        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">266<span>MS</span></h1>
+              <h4 class="summary-label">MS</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">4</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">4</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">4</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+              <div id="d82cd617-73ec-4e8d-b6c4-f35ac7796702" class="suite has-suites">
+                <h3 class="suite-title">Hello</h3>
+                <h5 class="suite-filename">\test\hello-test.js</h5>
+            
+                  <section class="suite-wrap">
+                    <div id="72516393-74cc-4e4e-8549-868ae26a92bc" class="suite has-tests has-passed">
+                      <h3 class="suite-title">#sayHello</h3>
+                      <h5 class="suite-filename">\test\hello-test.js</h5>
+                      <!-- Suite Chart -->
+                      <div class="suite-chart-wrap">
+                        <canvas id="72516393-74cc-4e4e-8549-868ae26a92bc" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+                      </div>
+                      <div class="suite-data-wrap">
+                        <!-- Suite Summary -->
+                        <ul class="suite-summary list-unstyled">
+                          <li class="suite-summary-item duration">0 ms</li>
+                          <li class="suite-summary-item tests">2</li>
+                          <li class="suite-summary-item passed">2</li>
+                          <li class="suite-summary-item failed">0</li>
+                          <li class="suite-summary-item pending">0</li>
+                        </ul>
+                        <!-- Test Info -->
+                        <div class="suite-test-wrap">
+                          <div class="suite-test-header" data-toggle="collapse" data-target="#72516393-74cc-4e4e-8549-868ae26a92bc-test-list">
+                            <h4 class="suite-test-header-title">Tests</h4>
+                          </div>
+                          <div id="72516393-74cc-4e4e-8549-868ae26a92bc-test-list" class="list-group test-list collapse in">
+                              <div id="2b20f117-ee9d-451d-83b8-72dd11d1878e" class="list-group-item test passed">
+                                <!-- Test Heading -->
+                                <div class="test-heading">
+                                  <h4 class="test-title">
+                                    <span class="text-muted hidden"> it </span>
+                                    should return the default hello message if no options are provided
+                                  </h4>
+                                  <div class="pull-right">
+                                    <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#2b20f117-ee9d-451d-83b8-72dd11d1878e > .test-code.collapse">Code</button>
+                                    <span class="test-duration fast">0 ms</span>
+                                  </div>
+                                </div>
+                                <!-- Test Errors -->
+                                <!-- Test Code -->
+                                <div class="test-code collapse">
+                                  <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> hello = <span class="hljs-keyword">new</span> Hello();
+                              assert.equal(<span class="hljs-string">'Hello World!'</span>, hello.sayHello());</code></pre>
+                                </div>
+                                <!-- Test Error Stack -->
+                              </div>            <div id="32b8e5af-7122-4250-8118-4dc017969f4e" class="list-group-item test passed">
+                                <!-- Test Heading -->
+                                <div class="test-heading">
+                                  <h4 class="test-title">
+                                    <span class="text-muted hidden"> it </span>
+                                    should allow the user to override the helloMessage when instantiating
+                                  </h4>
+                                  <div class="pull-right">
+                                    <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#32b8e5af-7122-4250-8118-4dc017969f4e > .test-code.collapse">Code</button>
+                                    <span class="test-duration fast">0 ms</span>
+                                  </div>
+                                </div>
+                                <!-- Test Errors -->
+                                <!-- Test Code -->
+                                <div class="test-code collapse">
+                                  <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> hello = <span class="hljs-keyword">new</span> Hello({
+                                helloMessage: <span class="hljs-string">'你好世界'</span>
+                              })
+                              assert.equal(<span class="hljs-string">'你好世界'</span>, hello.sayHello());</code></pre>
+                                </div>
+                                <!-- Test Error Stack -->
+                              </div>        </div>
+                        </div>
+                      </div>
+                  
+                  
+                    </div>
+                  </section>
+                  <section class="suite-wrap">
+                    <div id="1d8ddd18-8f85-49cc-8187-f7710055a7e8" class="suite has-tests has-passed">
+                      <h3 class="suite-title">#sayHelloLater</h3>
+                      <h5 class="suite-filename">\test\hello-test.js</h5>
+                      <!-- Suite Chart -->
+                      <div class="suite-chart-wrap">
+                        <canvas id="1d8ddd18-8f85-49cc-8187-f7710055a7e8" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+                      </div>
+                      <div class="suite-data-wrap">
+                        <!-- Suite Summary -->
+                        <ul class="suite-summary list-unstyled">
+                          <li class="suite-summary-item duration">250 ms</li>
+                          <li class="suite-summary-item tests">1</li>
+                          <li class="suite-summary-item passed">1</li>
+                          <li class="suite-summary-item failed">0</li>
+                          <li class="suite-summary-item pending">0</li>
+                        </ul>
+                        <!-- Test Info -->
+                        <div class="suite-test-wrap">
+                          <div class="suite-test-header" data-toggle="collapse" data-target="#1d8ddd18-8f85-49cc-8187-f7710055a7e8-test-list">
+                            <h4 class="suite-test-header-title">Tests</h4>
+                          </div>
+                          <div id="1d8ddd18-8f85-49cc-8187-f7710055a7e8-test-list" class="list-group test-list collapse in">
+                              <div id="4c290d98-1fe0-4b78-8274-503c3f33fe2b" class="list-group-item test passed">
+                                <!-- Test Heading -->
+                                <div class="test-heading">
+                                  <h4 class="test-title">
+                                    <span class="text-muted hidden"> it </span>
+                                    should execute callback with the hello message asynchronously
+                                  </h4>
+                                  <div class="pull-right">
+                                    <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#4c290d98-1fe0-4b78-8274-503c3f33fe2b > .test-code.collapse">Code</button>
+                                    <span class="test-duration slow">250 ms</span>
+                                  </div>
+                                </div>
+                                <!-- Test Errors -->
+                                <!-- Test Code -->
+                                <div class="test-code collapse">
+                                  <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> hello = <span class="hljs-keyword">new</span> Hello();
+                              hello.sayHelloLater(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(helloMessage)</span> </span>{
+                                assert.equal(helloMessage, <span class="hljs-string">'Hello World!'</span>);
+                                <span class="hljs-comment">// calling done indicates that all asynchronous</span>
+                                <span class="hljs-comment">// aspects of test are complete.</span>
+                                done();
+                              });</code></pre>
+                                </div>
+                                <!-- Test Error Stack -->
+                              </div>        </div>
+                        </div>
+                      </div>
+                  
+                  
+                    </div>
+                  </section>
+                  <section class="suite-wrap">
+                    <div id="48b60f2e-7060-43a8-83f4-ea75614ac5c2" class="suite has-tests has-passed">
+                      <h3 class="suite-title">#sayHelloThenSayHelloLater</h3>
+                      <h5 class="suite-filename">\test\hello-test.js</h5>
+                      <!-- Suite Chart -->
+                      <div class="suite-chart-wrap">
+                        <canvas id="48b60f2e-7060-43a8-83f4-ea75614ac5c2" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+                      </div>
+                      <div class="suite-data-wrap">
+                        <!-- Suite Summary -->
+                        <ul class="suite-summary list-unstyled">
+                          <li class="suite-summary-item duration">0 ms</li>
+                          <li class="suite-summary-item tests">1</li>
+                          <li class="suite-summary-item passed">1</li>
+                          <li class="suite-summary-item failed">0</li>
+                          <li class="suite-summary-item pending">0</li>
+                        </ul>
+                        <!-- Test Info -->
+                        <div class="suite-test-wrap">
+                          <div class="suite-test-header" data-toggle="collapse" data-target="#48b60f2e-7060-43a8-83f4-ea75614ac5c2-test-list">
+                            <h4 class="suite-test-header-title">Tests</h4>
+                          </div>
+                          <div id="48b60f2e-7060-43a8-83f4-ea75614ac5c2-test-list" class="list-group test-list collapse in">
+                              <div id="db9b8590-c846-43db-b3df-1e0c98b2a026" class="list-group-item test passed">
+                                <!-- Test Heading -->
+                                <div class="test-heading">
+                                  <h4 class="test-title">
+                                    <span class="text-muted hidden"> it </span>
+                                    should invoke both #sayHello and #sayHelloLater
+                                  </h4>
+                                  <div class="pull-right">
+                                    <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#db9b8590-c846-43db-b3df-1e0c98b2a026 > .test-code.collapse">Code</button>
+                                    <span class="test-duration fast">0 ms</span>
+                                  </div>
+                                </div>
+                                <!-- Test Errors -->
+                                <!-- Test Code -->
+                                <div class="test-code collapse">
+                                  <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> hello = <span class="hljs-keyword">new</span> Hello();
+                              
+                              <span class="hljs-comment">// stub the sayHello and sayHelloLater methods</span>
+                              <span class="hljs-comment">// with sinon.</span>
+                              hello.sayHello = sinon.spy();
+                              hello.sayHelloLater = sinon.spy();
+                              hello.sayHelloThenSayHelloLater();
+                              assert.equal(hello.sayHello.callCount, <span class="hljs-number">1</span>);
+                              assert.equal(hello.sayHelloLater.callCount, <span class="hljs-number">1</span>);</code></pre>
+                                </div>
+                                <!-- Test Error Stack -->
+                              </div>        </div>
+                        </div>
+                      </div>
+                  
+                  
+                    </div>
+                  </section>
+            
+              </div>
+            </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="https://github.dowjones.net/grubera/mochawesome" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2015.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
